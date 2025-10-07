@@ -1,0 +1,313 @@
+﻿@model SchoolManagementSystemMVC.Models.Student
+
+@{
+    ViewData["Title"] = "Student Registration";
+}
+
+<div class="container mt-4">
+    <h2>Student Registration Form</h2>
+    <hr />
+
+    @if (TempData["Success"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            @TempData["Success"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+    }
+
+    <form id="registrationForm" method="post" asp-action="Register">
+        @Html.AntiForgeryToken()
+
+        <!-- Personal Information -->
+        <div class="row">
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label asp-for="FirstName" class="form-label">First Name *</label>
+                    <input asp-for="FirstName" class="form-control" />
+                    <span asp-validation-for="FirstName" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label asp-for="LastName" class="form-label">Last Name</label>
+                    <input asp-for="LastName" class="form-control" />
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="mb-3">
+                    <label asp-for="Age" class="form-label">Age *</label>
+                    <input asp-for="Age" class="form-control" min="1" max="100" />
+                    <span asp-validation-for="Age" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="mb-3">
+                    <label asp-for="DOB" class="form-label">Date of Birth *</label>
+                    <input asp-for="DOB" type="date" class="form-control" />
+                    <span asp-validation-for="DOB" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="mb-3">
+                    <label asp-for="Gender" class="form-label">Gender *</label>
+                    <select asp-for="Gender" class="form-control">
+                        <option value="">Select Gender</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Other">Other</option>
+                    </select>
+                    <span asp-validation-for="Gender" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label asp-for="Email" class="form-label">Email *</label>
+                    <input asp-for="Email" type="email" class="form-control" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label asp-for="Phone" class="form-label">Phone *</label>
+                    <input asp-for="Phone" class="form-control" />
+                    <span asp-validation-for="Phone" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label asp-for="Username" class="form-label">Username</label>
+                    <input asp-for="Username" class="form-control" />
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label asp-for="Password" class="form-label">Password</label>
+                    <input asp-for="Password" type="password" class="form-control" />
+                </div>
+            </div>
+        </div>
+
+        <!-- Qualifications Section -->
+        <div class="card mt-4">
+            <div class="card-header">
+                <h5 class="mb-0">Qualification Details</h5>
+            </div>
+            <div class="card-body">
+                <table class="table table-bordered" id="qualificationsTable">
+                    <thead class="table-light">
+                        <tr>
+                            <th>Course Name</th>
+                            <th>University</th>
+                            <th>Year of Passing</th>
+                            <th>Percentage</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><input name="Qualifications[0].CourseName" class="form-control" placeholder="e.g., B.Tech" /></td>
+                            <td><input name="Qualifications[0].University" class="form-control" placeholder="e.g., Mumbai University" /></td>
+                            <td><input name="Qualifications[0].YearOfPassing" class="form-control" type="number" placeholder="e.g., 2023" min="1900" max="2030" /></td>
+                            <td><input name="Qualifications[0].Percentage" class="form-control" type="number" step="0.01" placeholder="e.g., 85.5" min="0" max="100" /></td>
+                            <td><button type="button" class="btn btn-danger btn-sm remove-row" disabled>Remove</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <button type="button" class="btn btn-success" id="addQualification">
+                    <i class="fas fa-plus"></i> Add Qualification
+                </button>
+            </div>
+        </div>
+
+        <!-- Submit Buttons -->
+        <div class="mt-4">
+            <button type="submit" class="btn btn-primary btn-lg" id="registerButton">
+                <i class="fas fa-user-plus"></i> Register Student
+            </button>
+            <a href="/Account/Login" class="btn btn-secondary btn-lg">
+                <i class="fas fa-arrow-left"></i> Back to Login
+            </a>
+            <button type="reset" class="btn btn-outline-warning btn-lg">
+                <i class="fas fa-redo"></i> Reset Form
+            </button>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.12/jquery.validate.unobtrusive.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            let rowCount = 1;
+
+            // Add qualification row
+            $('#addQualification').click(function() {
+                const newRow = `
+                    <tr>
+                        <td><input name="Qualifications[${rowCount}].CourseName" class="form-control course-name" placeholder="e.g., B.Tech" /></td>
+                        <td><input name="Qualifications[${rowCount}].University" class="form-control" placeholder="e.g., Mumbai University" /></td>
+                        <td><input name="Qualifications[${rowCount}].YearOfPassing" class="form-control year" type="number" placeholder="e.g., 2023" min="1900" max="2030" /></td>
+                        <td><input name="Qualifications[${rowCount}].Percentage" class="form-control percentage" type="number" step="0.01" placeholder="e.g., 85.5" min="0" max="100" /></td>
+                        <td><button type="button" class="btn btn-danger btn-sm remove-row">Remove</button></td>
+                    </tr>`;
+                $('#qualificationsTable tbody').append(newRow);
+                rowCount++;
+                updateRemoveButtons();
+            });
+
+            // Remove qualification row
+            $(document).on('click', '.remove-row', function() {
+                if ($('#qualificationsTable tbody tr').length > 1) {
+                    $(this).closest('tr').remove();
+                    updateRemoveButtons();
+                }
+            });
+
+            // Enable/disable remove buttons based on row count
+            function updateRemoveButtons() {
+                const rows = $('#qualificationsTable tbody tr');
+                if (rows.length === 1) {
+                    rows.find('.remove-row').prop('disabled', true);
+                } else {
+                    rows.find('.remove-row').prop('disabled', false);
+                }
+            }
+
+            // jQuery Validation
+            $('#registrationForm').validate({
+                rules: {
+                    FirstName: {
+                        required: true,
+                        minlength: 2
+                    },
+                    Age: {
+                        required: true,
+                        number: true,
+                        min: 1,
+                        max: 100
+                    },
+                    DOB: "required",
+                    Gender: "required",
+                    Email: {
+                        required: true,
+                        email: true
+                    },
+                    Phone: {
+                        required: true,
+                        digits: true,
+                        minlength: 10,
+                        maxlength: 15
+                    }
+                },
+                messages: {
+                    FirstName: {
+                        required: "Please enter first name",
+                        minlength: "First name must be at least 2 characters"
+                    },
+                    Age: {
+                        required: "Please enter age",
+                        number: "Please enter a valid age",
+                        min: "Age must be at least 1",
+                        max: "Age cannot exceed 100"
+                    },
+                    DOB: "Please select date of birth",
+                    Gender: "Please select gender",
+                    Email: {
+                        required: "Please enter email address",
+                        email: "Please enter a valid email address"
+                    },
+                    Phone: {
+                        required: "Please enter phone number",
+                        digits: "Please enter only digits",
+                        minlength: "Phone number must be at least 10 digits",
+                        maxlength: "Phone number cannot exceed 15 digits"
+                    }
+                },
+                errorElement: 'span',
+                errorClass: 'text-danger',
+                highlight: function(element) {
+                    $(element).addClass('is-invalid');
+                },
+                unhighlight: function(element) {
+                    $(element).removeClass('is-invalid');
+                },
+                submitHandler: function(form) {
+                    // Show loading state
+                    $('#registerButton').html('<i class="fas fa-spinner fa-spin"></i> Registering...').prop('disabled', true);
+
+                    // Validate qualifications
+                    if (!validateQualifications()) {
+                        $('#registerButton').html('<i class="fas fa-user-plus"></i> Register Student').prop('disabled', false);
+                        return false;
+                    }
+
+                    // Submit the form
+                    form.submit();
+                }
+            });
+
+            // Custom validation for qualifications
+            function validateQualifications() {
+                let isValid = true;
+                $('.course-name').each(function() {
+                    if ($(this).val().trim() === '') {
+                        $(this).addClass('is-invalid');
+                        isValid = false;
+                    } else {
+                        $(this).removeClass('is-invalid');
+                    }
+                });
+
+                if (!isValid) {
+                    alert('Please fill all course names in qualifications.');
+                }
+                return isValid;
+            }
+
+            // Real-time validation
+            $('input, select').on('blur', function() {
+                $(this).valid();
+            });
+
+            // Initialize remove buttons state
+            updateRemoveButtons();
+        });
+    </script>
+
+    <style>
+        .is-invalid {
+            border-color: #dc3545 !important;
+        }
+
+        .card {
+            box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+        }
+
+        .btn-lg {
+            padding: 0.75rem 1.5rem;
+            font-size: 1.1rem;
+        }
+
+        #registerButton:disabled {
+            cursor: not-allowed;
+        }
+
+        .table th {
+            background-color: #f8f9fa;
+            font-weight: 600;
+        }
+    </style>
+}

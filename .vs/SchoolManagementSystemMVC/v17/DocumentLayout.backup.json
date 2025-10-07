@@ -1,0 +1,292 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\SeffinTest\\SchoolManagementSystemMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CDCDC178-3498-46C9-832B-BC062A6228FF}|SchoolManagementSystemMVC\\SchoolManagementSystemMVC.csproj|h:\\seffintest\\schoolmanagementsystemmvc\\schoolmanagementsystemmvc\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDCDC178-3498-46C9-832B-BC062A6228FF}|SchoolManagementSystemMVC\\SchoolManagementSystemMVC.csproj|solutionrelative:schoolmanagementsystemmvc\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDCDC178-3498-46C9-832B-BC062A6228FF}|SchoolManagementSystemMVC\\SchoolManagementSystemMVC.csproj|h:\\seffintest\\schoolmanagementsystemmvc\\schoolmanagementsystemmvc\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDCDC178-3498-46C9-832B-BC062A6228FF}|SchoolManagementSystemMVC\\SchoolManagementSystemMVC.csproj|solutionrelative:schoolmanagementsystemmvc\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDCDC178-3498-46C9-832B-BC062A6228FF}|SchoolManagementSystemMVC\\SchoolManagementSystemMVC.csproj|h:\\seffintest\\schoolmanagementsystemmvc\\schoolmanagementsystemmvc\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDCDC178-3498-46C9-832B-BC062A6228FF}|SchoolManagementSystemMVC\\SchoolManagementSystemMVC.csproj|solutionrelative:schoolmanagementsystemmvc\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDCDC178-3498-46C9-832B-BC062A6228FF}|SchoolManagementSystemMVC\\SchoolManagementSystemMVC.csproj|h:\\seffintest\\schoolmanagementsystemmvc\\schoolmanagementsystemmvc\\models\\qualification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDCDC178-3498-46C9-832B-BC062A6228FF}|SchoolManagementSystemMVC\\SchoolManagementSystemMVC.csproj|solutionrelative:schoolmanagementsystemmvc\\models\\qualification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDCDC178-3498-46C9-832B-BC062A6228FF}|SchoolManagementSystemMVC\\SchoolManagementSystemMVC.csproj|h:\\seffintest\\schoolmanagementsystemmvc\\schoolmanagementsystemmvc\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDCDC178-3498-46C9-832B-BC062A6228FF}|SchoolManagementSystemMVC\\SchoolManagementSystemMVC.csproj|solutionrelative:schoolmanagementsystemmvc\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDCDC178-3498-46C9-832B-BC062A6228FF}|SchoolManagementSystemMVC\\SchoolManagementSystemMVC.csproj|h:\\seffintest\\schoolmanagementsystemmvc\\schoolmanagementsystemmvc\\views\\student\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CDCDC178-3498-46C9-832B-BC062A6228FF}|SchoolManagementSystemMVC\\SchoolManagementSystemMVC.csproj|solutionrelative:schoolmanagementsystemmvc\\views\\student\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDCDC178-3498-46C9-832B-BC062A6228FF}|SchoolManagementSystemMVC\\SchoolManagementSystemMVC.csproj|h:\\seffintest\\schoolmanagementsystemmvc\\schoolmanagementsystemmvc\\migrations\\20251007101723_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDCDC178-3498-46C9-832B-BC062A6228FF}|SchoolManagementSystemMVC\\SchoolManagementSystemMVC.csproj|solutionrelative:schoolmanagementsystemmvc\\migrations\\20251007101723_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDCDC178-3498-46C9-832B-BC062A6228FF}|SchoolManagementSystemMVC\\SchoolManagementSystemMVC.csproj|h:\\seffintest\\schoolmanagementsystemmvc\\schoolmanagementsystemmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CDCDC178-3498-46C9-832B-BC062A6228FF}|SchoolManagementSystemMVC\\SchoolManagementSystemMVC.csproj|solutionrelative:schoolmanagementsystemmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDCDC178-3498-46C9-832B-BC062A6228FF}|SchoolManagementSystemMVC\\SchoolManagementSystemMVC.csproj|h:\\seffintest\\schoolmanagementsystemmvc\\schoolmanagementsystemmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDCDC178-3498-46C9-832B-BC062A6228FF}|SchoolManagementSystemMVC\\SchoolManagementSystemMVC.csproj|solutionrelative:schoolmanagementsystemmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDCDC178-3498-46C9-832B-BC062A6228FF}|SchoolManagementSystemMVC\\SchoolManagementSystemMVC.csproj|h:\\seffintest\\schoolmanagementsystemmvc\\schoolmanagementsystemmvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDCDC178-3498-46C9-832B-BC062A6228FF}|SchoolManagementSystemMVC\\SchoolManagementSystemMVC.csproj|solutionrelative:schoolmanagementsystemmvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDCDC178-3498-46C9-832B-BC062A6228FF}|SchoolManagementSystemMVC\\SchoolManagementSystemMVC.csproj|h:\\seffintest\\schoolmanagementsystemmvc\\schoolmanagementsystemmvc\\schoolmanagementsystemmvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CDCDC178-3498-46C9-832B-BC062A6228FF}|SchoolManagementSystemMVC\\SchoolManagementSystemMVC.csproj|solutionrelative:schoolmanagementsystemmvc\\schoolmanagementsystemmvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDCDC178-3498-46C9-832B-BC062A6228FF}|SchoolManagementSystemMVC\\SchoolManagementSystemMVC.csproj|h:\\seffintest\\schoolmanagementsystemmvc\\schoolmanagementsystemmvc\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CDCDC178-3498-46C9-832B-BC062A6228FF}|SchoolManagementSystemMVC\\SchoolManagementSystemMVC.csproj|solutionrelative:schoolmanagementsystemmvc\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDCDC178-3498-46C9-832B-BC062A6228FF}|SchoolManagementSystemMVC\\SchoolManagementSystemMVC.csproj|h:\\seffintest\\schoolmanagementsystemmvc\\schoolmanagementsystemmvc\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CDCDC178-3498-46C9-832B-BC062A6228FF}|SchoolManagementSystemMVC\\SchoolManagementSystemMVC.csproj|solutionrelative:schoolmanagementsystemmvc\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDCDC178-3498-46C9-832B-BC062A6228FF}|SchoolManagementSystemMVC\\SchoolManagementSystemMVC.csproj|h:\\seffintest\\schoolmanagementsystemmvc\\schoolmanagementsystemmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDCDC178-3498-46C9-832B-BC062A6228FF}|SchoolManagementSystemMVC\\SchoolManagementSystemMVC.csproj|solutionrelative:schoolmanagementsystemmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDCDC178-3498-46C9-832B-BC062A6228FF}|SchoolManagementSystemMVC\\SchoolManagementSystemMVC.csproj|h:\\seffintest\\schoolmanagementsystemmvc\\schoolmanagementsystemmvc\\views\\student\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CDCDC178-3498-46C9-832B-BC062A6228FF}|SchoolManagementSystemMVC\\SchoolManagementSystemMVC.csproj|solutionrelative:schoolmanagementsystemmvc\\views\\student\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDCDC178-3498-46C9-832B-BC062A6228FF}|SchoolManagementSystemMVC\\SchoolManagementSystemMVC.csproj|h:\\seffintest\\schoolmanagementsystemmvc\\schoolmanagementsystemmvc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CDCDC178-3498-46C9-832B-BC062A6228FF}|SchoolManagementSystemMVC\\SchoolManagementSystemMVC.csproj|solutionrelative:schoolmanagementsystemmvc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "H:\\SeffinTest\\SchoolManagementSystemMVC\\SchoolManagementSystemMVC\\Services\\StudentService.cs",
+              "RelativeDocumentMoniker": "SchoolManagementSystemMVC\\Services\\StudentService.cs",
+              "ToolTip": "H:\\SeffinTest\\SchoolManagementSystemMVC\\SchoolManagementSystemMVC\\Services\\StudentService.cs",
+              "RelativeToolTip": "SchoolManagementSystemMVC\\Services\\StudentService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAswBsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T08:57:47.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "H:\\SeffinTest\\SchoolManagementSystemMVC\\SchoolManagementSystemMVC\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "SchoolManagementSystemMVC\\Controllers\\StudentController.cs",
+              "ToolTip": "H:\\SeffinTest\\SchoolManagementSystemMVC\\SchoolManagementSystemMVC\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "SchoolManagementSystemMVC\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwCoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T08:53:18.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\SeffinTest\\SchoolManagementSystemMVC\\SchoolManagementSystemMVC\\Program.cs",
+              "RelativeDocumentMoniker": "SchoolManagementSystemMVC\\Program.cs",
+              "ToolTip": "H:\\SeffinTest\\SchoolManagementSystemMVC\\SchoolManagementSystemMVC\\Program.cs",
+              "RelativeToolTip": "SchoolManagementSystemMVC\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T08:46:53.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "H:\\SeffinTest\\SchoolManagementSystemMVC\\SchoolManagementSystemMVC\\appsettings.json",
+              "RelativeDocumentMoniker": "SchoolManagementSystemMVC\\appsettings.json",
+              "ToolTip": "H:\\SeffinTest\\SchoolManagementSystemMVC\\SchoolManagementSystemMVC\\appsettings.json",
+              "RelativeToolTip": "SchoolManagementSystemMVC\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-07T09:35:33.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "H:\\SeffinTest\\SchoolManagementSystemMVC\\SchoolManagementSystemMVC\\Views\\Student\\Register.cshtml",
+              "RelativeDocumentMoniker": "SchoolManagementSystemMVC\\Views\\Student\\Register.cshtml",
+              "ToolTip": "H:\\SeffinTest\\SchoolManagementSystemMVC\\SchoolManagementSystemMVC\\Views\\Student\\Register.cshtml",
+              "RelativeToolTip": "SchoolManagementSystemMVC\\Views\\Student\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-07T08:43:04.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Student.cs",
+              "DocumentMoniker": "H:\\SeffinTest\\SchoolManagementSystemMVC\\SchoolManagementSystemMVC\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "SchoolManagementSystemMVC\\Models\\Student.cs",
+              "ToolTip": "H:\\SeffinTest\\SchoolManagementSystemMVC\\SchoolManagementSystemMVC\\Models\\Student.cs",
+              "RelativeToolTip": "SchoolManagementSystemMVC\\Models\\Student.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAswCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T08:54:18.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "H:\\SeffinTest\\SchoolManagementSystemMVC\\SchoolManagementSystemMVC\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "SchoolManagementSystemMVC\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "H:\\SeffinTest\\SchoolManagementSystemMVC\\SchoolManagementSystemMVC\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "SchoolManagementSystemMVC\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T10:07:32.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "H:\\SeffinTest\\SchoolManagementSystemMVC\\SchoolManagementSystemMVC\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "SchoolManagementSystemMVC\\Controllers\\AccountController.cs",
+              "ToolTip": "H:\\SeffinTest\\SchoolManagementSystemMVC\\SchoolManagementSystemMVC\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "SchoolManagementSystemMVC\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAMAAABgZmZmZmYkwAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T08:48:59.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Qualification.cs",
+              "DocumentMoniker": "H:\\SeffinTest\\SchoolManagementSystemMVC\\SchoolManagementSystemMVC\\Models\\Qualification.cs",
+              "RelativeDocumentMoniker": "SchoolManagementSystemMVC\\Models\\Qualification.cs",
+              "ToolTip": "H:\\SeffinTest\\SchoolManagementSystemMVC\\SchoolManagementSystemMVC\\Models\\Qualification.cs",
+              "RelativeToolTip": "SchoolManagementSystemMVC\\Models\\Qualification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T10:39:39.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20251007101723_InitialCreate.cs",
+              "DocumentMoniker": "H:\\SeffinTest\\SchoolManagementSystemMVC\\SchoolManagementSystemMVC\\Migrations\\20251007101723_InitialCreate.cs",
+              "RelativeDocumentMoniker": "SchoolManagementSystemMVC\\Migrations\\20251007101723_InitialCreate.cs",
+              "ToolTip": "H:\\SeffinTest\\SchoolManagementSystemMVC\\SchoolManagementSystemMVC\\Migrations\\20251007101723_InitialCreate.cs",
+              "RelativeToolTip": "SchoolManagementSystemMVC\\Migrations\\20251007101723_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T10:17:24.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SchoolManagementSystemMVC",
+              "DocumentMoniker": "H:\\SeffinTest\\SchoolManagementSystemMVC\\SchoolManagementSystemMVC\\SchoolManagementSystemMVC.csproj",
+              "RelativeDocumentMoniker": "SchoolManagementSystemMVC\\SchoolManagementSystemMVC.csproj",
+              "ToolTip": "H:\\SeffinTest\\SchoolManagementSystemMVC\\SchoolManagementSystemMVC\\SchoolManagementSystemMVC.csproj",
+              "RelativeToolTip": "SchoolManagementSystemMVC\\SchoolManagementSystemMVC.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-07T10:06:53.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "H:\\SeffinTest\\SchoolManagementSystemMVC\\SchoolManagementSystemMVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "SchoolManagementSystemMVC\\Controllers\\HomeController.cs",
+              "ToolTip": "H:\\SeffinTest\\SchoolManagementSystemMVC\\SchoolManagementSystemMVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "SchoolManagementSystemMVC\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T08:51:55.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "H:\\SeffinTest\\SchoolManagementSystemMVC\\SchoolManagementSystemMVC\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "SchoolManagementSystemMVC\\Views\\Account\\Login.cshtml",
+              "ToolTip": "H:\\SeffinTest\\SchoolManagementSystemMVC\\SchoolManagementSystemMVC\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "SchoolManagementSystemMVC\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-07T08:43:42.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "H:\\SeffinTest\\SchoolManagementSystemMVC\\SchoolManagementSystemMVC\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "SchoolManagementSystemMVC\\Properties\\launchSettings.json",
+              "ToolTip": "H:\\SeffinTest\\SchoolManagementSystemMVC\\SchoolManagementSystemMVC\\Properties\\launchSettings.json",
+              "RelativeToolTip": "SchoolManagementSystemMVC\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-07T09:35:44.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "H:\\SeffinTest\\SchoolManagementSystemMVC\\SchoolManagementSystemMVC\\Views\\Student\\List.cshtml",
+              "RelativeDocumentMoniker": "SchoolManagementSystemMVC\\Views\\Student\\List.cshtml",
+              "ToolTip": "H:\\SeffinTest\\SchoolManagementSystemMVC\\SchoolManagementSystemMVC\\Views\\Student\\List.cshtml",
+              "RelativeToolTip": "SchoolManagementSystemMVC\\Views\\Student\\List.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-07T08:42:32.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "H:\\SeffinTest\\SchoolManagementSystemMVC\\SchoolManagementSystemMVC\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "SchoolManagementSystemMVC\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "H:\\SeffinTest\\SchoolManagementSystemMVC\\SchoolManagementSystemMVC\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "SchoolManagementSystemMVC\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-07T09:01:01.864Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
